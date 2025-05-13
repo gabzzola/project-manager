@@ -1,0 +1,22 @@
+header {
+  padding: 1.5rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logoContainer img {
+  height: 80px;
+}
+
+.logoContainer h1 {
+  color: #7C8388;
+  font-size: 35px;
+}
+
+.logoContainer h1:hover {
+  color: #92999E;
+}
