@@ -1,10 +1,13 @@
-import Navbar from "./Navbar";
+import Container from '../layouts/Container';
+import Navbar from './Navbar';
 
 function Header() {
   return (
     <header>
-      <h1>Header</h1>
-      <Navbar />
+      <Container>
+        <h1>Header</h1>
+        <Navbar />
+      </Container>
     </header>  
   );
 }

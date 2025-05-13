@@ -1,7 +1,11 @@
+import Container from '../layouts/Container';
+
 function Footer() {
   return (
     <footer>
-      Footer
+      <Container>
+        Footer
+      </Container>
     </footer>
   );
 }
