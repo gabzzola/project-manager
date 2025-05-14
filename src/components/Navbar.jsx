@@ -12,8 +12,8 @@ function Navbar() {
     <nav>
       <ul className={styles.list}>
         {
-          navigation.map((item, index) => (
-            <li key={index}>
+          navigation.map((item) => (
+            <li key={item.to}>
               <Link to={item.to} className={styles.item}>{item.text}</Link>
             </li>
           ))

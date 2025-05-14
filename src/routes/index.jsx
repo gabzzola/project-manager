@@ -17,8 +17,8 @@ function AppRoutes() {
     <Routes>
       <Route element={<RouteContainer />}>
         {
-          routes.map((item, index) => (
-            <Route key={index} path={item.path} element={item.element} />
+          routes.map((item) => (
+            <Route key={item.path} path={item.path} element={item.element} />
           ))
         }
       </Route>

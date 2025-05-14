@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import styles from './Footer.module.css';
 
 function Footer() {
@@ -24,8 +24,8 @@ function Footer() {
     <footer>
       <ul className={styles.list}>
         {
-          icons.map((item, index) => (
-            <li key={index} className={styles[item.style]}>
+          icons.map((item) => (
+            <li key={item.href} className={styles[item.style]}>
               <a href={item.href} target="_blank" rel="noopener noreferrer">
                 {item.icon}
               </a>
@@ -33,6 +33,7 @@ function Footer() {
           ))
         }
       </ul>
+      
       <div>
         <h4 className={styles.title}>Gerenciador de Projetos</h4>
       </div>
