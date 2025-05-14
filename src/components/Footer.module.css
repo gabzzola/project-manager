@@ -1,0 +1,46 @@
+footer {  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #BBC0C4;
+}
+
+.title {
+  color: #7C8388;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.email {
+  color: #FF6B6B;
+}
+
+.linkedin {
+  color: #4D9DE0;
+}
+
+.github {
+  color: white;
+}
+
+.email,
+.github,
+.linkedin {
+  font-size: 25px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.email:hover,
+.github:hover,
+.linkedin:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
