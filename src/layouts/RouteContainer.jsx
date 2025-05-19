@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 function RouteContainer() {
   return (
-    <div className={`${sharedStyles.container} ${styles.minHeight}`}>
+    <div className={`${sharedStyles.container} ${styles.justifyCenter} ${styles.minHeight}`}>
       <Outlet />
     </div>
   );

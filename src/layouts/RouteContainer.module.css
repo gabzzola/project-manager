@@ -1,3 +1,7 @@
+.justifyCenter {  
+  justify-content: center;
+}
+
 .minHeight {
   min-height: 75vh;
 }
