@@ -27,7 +27,7 @@ function Footer() {
           icons.map((item) => (
             <li key={item.href} className={styles[item.style]}>
               <a href={item.href} target="_blank" rel="noopener noreferrer">
-                {item.icon}
+                { item.icon }
               </a>
             </li>
           ))
@@ -35,7 +35,9 @@ function Footer() {
       </ul>
       
       <div>
-        <h4 className={styles.title}>Gerenciador de Projetos</h4>
+        <h4 className={styles.title}>
+          Gerenciador de Projetos
+        </h4>
       </div>
     </footer>
   );

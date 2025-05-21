@@ -14,7 +14,9 @@ function Navbar() {
         {
           navigation.map((item) => (
             <li key={item.to}>
-              <Link to={item.to} className={styles.item}>{item.text}</Link>
+              <Link to={item.to} className={styles.item}>
+                { item.text }
+              </Link>
             </li>
           ))
         }
