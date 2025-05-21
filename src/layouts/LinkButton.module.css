@@ -8,3 +8,17 @@
 .button:hover {
   background-color: #E63950;
 }
+
+.buttonPulsing {
+  animation: pulseEffect 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseEffect {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}

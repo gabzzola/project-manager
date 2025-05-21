@@ -12,8 +12,9 @@ function Home() {
       <p>Comece a gerenciar seus projetos agora mesmo!</p>
 
       <LinkButton 
-        to="/newproject" 
-        text="CRIAR NOVO PROJETO" 
+        to="/newproject"
+        text="CRIAR NOVO PROJETO"
+        className="buttonPulsing"
       />
 
       <img 
