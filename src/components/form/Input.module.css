@@ -1,0 +1,18 @@
+label {
+  color: #7C8388;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border: 2px solid #000;
+  transition: border-color 0.8s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #FF637B;
+}

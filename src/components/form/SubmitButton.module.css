@@ -1,0 +1,11 @@
+button {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  color: #FFF;
+  background-color: #FF637B;    
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #E63950;
+}

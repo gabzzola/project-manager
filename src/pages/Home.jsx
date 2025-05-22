@@ -4,7 +4,7 @@ import styles from './Home.module.css';
 
 function Home() {
   return (
-    <main className={styles.homeContainer}>
+    <main className={styles.mainContainer}>
       <h1>
         Bem-vindo ao <span>Gerenciador de Projetos</span>
       </h1>

@@ -1,0 +1,23 @@
+.mainContainer {
+  width: 80%;
+  max-width: 500px;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introContainer h1 {
+  color: #E63950;;
+}

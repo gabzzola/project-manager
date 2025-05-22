@@ -1,24 +1,24 @@
-.homeContainer {
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
-.homeContainer span {
+.mainContainer span {
   color: #E63950;
 }
 
-.homeContainer p {
+.mainContainer p {
   color: #7C8388;
 }
 
-.homeContainer img {
-  height: 50vh;
+.mainContainer img {
+  height: 40vh;
   margin: 20px 0 40px;
   transition: transform 0.2s ease-in-out;
 }
 
-.homeContainer img:hover {
+.mainContainer img:hover {
   transform: scale(1.05);
 }
