@@ -1,6 +1,6 @@
 import './Input.module.css';
 
-function Input({ type, step, text, name, value, placeholder, handleOnChange }) {
+function Input({ type, step, text, name, value, placeholder, onChange }) {
   return (
     <>
       <label htmlFor={name}>
@@ -14,7 +14,7 @@ function Input({ type, step, text, name, value, placeholder, handleOnChange }) {
         name={name}
         value={value}
         placeholder={placeholder}
-        onChange={handleOnChange}        
+        onChange={onChange}        
       />
     </>
   );
